@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+}
+header .myNavv {
+  margin: auto;
+  width: 65%;
+}
+header .myNavv .myMenu {
+  display: none;
+}
+header .myNavv .navv {
+  justify-content: flex-end;
+}
+header .myNavv .navv .navtxt {
+  font-size: 12px;
+}
+header .myNavv .navLogo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  header .myNavv .myMenu {
+    display: block;
+  }
+  header .myNavv .navLogo {
+    font-size: 25px;
+  }
+  header .myNavv .navv .navtxt {
+    font-size: 17px;
+  }
+}
+main {
+  width: 100%;
+  position: relative;
+}
+main .first {
+  background-color: #D4EAF5;
+}
+main .first .homepg .row {
+  display: flex;
+  align-items: center;
+}
+main .first .homepg .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+main .first .homepg .txt h2 {
+  font-size: 50px;
+  font-weight: 100;
+}
+main .first .homepg .txt h3 {
+  font-size: 60px;
+  font-weight: bold;
+}
+main .first .homepg .txt p {
+  font-size: 20px;
+}
+main .first .homepg .myimg {
+  width: 100%;
+  height: 850px;
+}
+main .first .homepg .btn {
+  background: #fff;
+  color: #267aa4;
+  border-radius: 40px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+main .second .row {
+  width: 100%;
+  margin: 5px 5px;
+}
+main .second .row .firsticon {
+  height: 300px;
+  background-color: #F5EBEB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+main .second .row .firsticon .iconsdiv {
+  margin-bottom: 15px;
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #CB9696;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .second .row .secondicon {
+  height: 300px;
+  background-color: #DCEBDD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+main .second .row .secondicon .iconsdiv {
+  margin-bottom: 15px;
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #8BBD8E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .second .row .thirdicon {
+  height: 300px;
+  background-color: #F5EFD8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+main .second .row .thirdicon .iconsdiv {
+  margin-bottom: 15px;
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #D1B54A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .second .row .fourthicon {
+  height: 300px;
+  background-color: #F4E6D8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+main .second .row .fourthicon .iconsdiv {
+  margin-bottom: 15px;
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #D29A61;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .third {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .third .myimg {
+  position: relative;
+}
+main .third .container {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  right: 200px;
+}
+main .third .container h6 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #052c43;
+}
+main .third .container p {
+  font-size: 16px;
+  color: gray;
+}
+main .third .container .btn {
+  border-radius: 50%;
+  background-color: #CF7500;
+}
+main .fourth {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .fourth .container {
+  width: 500px;
+  height: 600px;
+  right: 200px;
+  text-align: center;
+  margin-top: 50px;
+}
+main .fourth h2 {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #052c43;
+}
+main .fourth span {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
